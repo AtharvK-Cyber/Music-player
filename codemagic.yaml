@@ -7,8 +7,6 @@ workflows:
       android_signing:
         # For now, building without signing (debug mode)
         # You can add signing configuration later
-      groups:
-        # Add your environment variables here if needed
       vars:
         PACKAGE_NAME: "com.example.offline_music_player"
       flutter: stable
